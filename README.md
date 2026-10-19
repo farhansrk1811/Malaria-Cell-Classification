@@ -1,29 +1,49 @@
-# End-to-End Retail Analytics Project
+# Malaria Cell Classification
 
 ## Project Overview
-This project focuses on analyzing retail and e-commerce transaction data using Python to understand sales performance, product trends, customer behavior, and business patterns.
+This project focuses on classifying malaria-infected and uninfected blood cell images using image classification and deep learning techniques.
 
-## Objectives
-- Analyze retail sales and transaction data.
-- Identify top-performing products.
-- Explore customer purchasing patterns.
-- Examine sales trends over time.
-- Generate insights to support business decision-making.
+The objective is to distinguish between two categories:
+- **Parasitized:** Blood cell images containing malaria parasites.
+- **Uninfected:** Blood cell images without malaria parasites.
 
-## Tools and Technologies
+## Project Objectives
+- Locate and verify the malaria cell image dataset.
+- Explore and display sample blood cell images.
+- Check image dimensions and dataset structure.
+- Prepare image data for classification.
+- Develop and evaluate a malaria cell classification model.
+
+## Technologies Used
 - Python
-- Pandas
-- NumPy
 - Jupyter Notebook
+- Image processing and visualization libraries
+- Deep learning and machine learning libraries used in the notebook
 
-## Project Structure
-- `End-to-End Retail Analytics Project.ipynb`: Jupyter Notebook containing the project analysis and code.
+## Dataset Structure
+The dataset contains two image categories:
+
+```text
+dataset/
+└── cell_images/
+    ├── Parasitized/
+    └── Uninfected/
+```
+
+The dataset is organized into folders for infected and uninfected cell images.
+
+## Project Files
+- `Malaria_Cell_Classification.ipynb`: Notebook containing the project workflow, code, analysis, and outputs.
 
 ## How to Run
 1. Clone or download this repository.
-2. Install the required Python packages.
-3. Open the notebook in VS Code or Jupyter Notebook.
-4. Run the notebook cells in sequence.
+2. Install the Python libraries required by the notebook.
+3. Obtain the malaria cell image dataset and place it in the expected folder structure.
+4. Open `Malaria_Cell_Classification.ipynb` in VS Code or Jupyter Notebook.
+5. Select a compatible Python kernel and run the notebook cells in order.
+
+## Note
+This project is intended for educational and research purposes. Its classification results should not be used as a substitute for professional medical diagnosis.
 
 ## Author
 Farhan Sirkhot
